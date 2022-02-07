@@ -28,4 +28,23 @@ This means that the subclass should remain compatible with the behavior of the s
 
 
 
+## Interface Segregation Principle
+
+> Clients shouldn’t be forced to depend on methods they do not use.
+Don't put too much into an interface; Split into separate interfaces.
+
+Try to make your interfaces narrow enough that client classes don’t have to implement behaviors they don’t need.
+Class inheritance lets a class have just one superclass, but it doesn’t limit the number of interfaces that the class can implement at the same time. Hence, there’s no need to cram tons of unrelated methods to a single interface. Break it down into several more refined interfaces—you can implement them all in a single class if needed. However, some classes may be fine with implementing just one of them. 
+
+
+
+## Dependency Inversion Principle
+
+> High-level classes shouldn’t depend on low-level classes. Both should depend on abstractions. Abstractions shouldn’t depend on details. Details should depend on abstractions.
+
+Once low-level classes implement these interfaces, they become dependent on the business logic level, reversing the direction of the original dependency.
+
+
+
+
 
