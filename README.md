@@ -1,5 +1,6 @@
 # design-patterns
 Some notes of "Dive into DESIGN PATTERNS" by Alexander Shvets
+Google doscs notes with comments: https://docs.google.com/document/d/1jzzAfMacZmmW6TYcvSzUS-aZ164vVVyr7HqNvP-6ggk/edit?usp=sharing
 
 
 ----------------
